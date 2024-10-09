@@ -1,0 +1,51 @@
+.cherryMeltSunday,
+.imageBase {
+  align-self: stretch;
+  position: relative;
+}
+.cherryMeltSunday {
+  margin: 0;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.imageBase {
+  height: 285px;
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content,
+.menuItem,
+.menuItemWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.menuItem {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.content,
+.menuItemWrapper {
+  align-self: stretch;
+}
+.menuItemWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.content {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}

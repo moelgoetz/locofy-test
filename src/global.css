@@ -19,6 +19,7 @@ body {
   --black: #1b1b1b;
   --color-black: #000;
   --gray-2: #d8d8d8;
+  --color-dimgray: #4d4d4d;
 
   /* Gaps */
   --gap-12xl: 31px;
@@ -46,11 +47,19 @@ body {
   --padding-10xs: 3px;
   --padding-3xs: 10px;
   --padding-mini: 15px;
+  --padding-65xl: 84px;
   --padding-xs: 12px;
   --padding-5xs: 8px;
+  --padding-29xl: 48px;
+  --padding-7xs: 6px;
+  --padding-13xl: 32px;
+  --padding-5xl: 24px;
+  --padding-2xs: 11px;
+  --padding-12xl: 31px;
 
   /* Border radiuses */
   --br-5xs: 8px;
   --br-11xs: 2px;
   --br-10xs: 3px;
+  --br-9xs: 4px;
 }

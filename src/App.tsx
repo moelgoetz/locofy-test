@@ -5,8 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import V2WithAutoLayout from "./pages/V2WithAutoLayout";
-import AndroidCompact from "./pages/AndroidCompact";
+import V3WithMoreAutoLayoutAnd from "./pages/V3WithMoreAutoLayoutAnd";
 
 function App() {
   const action = useNavigationType();
@@ -28,10 +27,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/no-effort":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -50,8 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<V2WithAutoLayout />} />
-      <Route path="/no-effort" element={<AndroidCompact />} />
+      <Route path="/" element={<V3WithMoreAutoLayoutAnd />} />
     </Routes>
   );
 }

@@ -1,0 +1,8 @@
+.photoImageimage {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}

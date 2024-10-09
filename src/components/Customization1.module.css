@@ -1,0 +1,104 @@
+.selection {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.text {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.dropdown,
+.selectiontype {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.dropdown {
+  height: 48px;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-2xs) var(--padding-4xs)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+  font-size: var(--patrick-hand-body-size);
+  color: var(--black);
+}
+.selectiontype {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+}
+.toppings {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.subheading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.checkboxPair {
+  margin: 0;
+  height: 26px;
+  width: 24px;
+}
+.nuts {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 35px;
+}
+.checkboxRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fruit {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+}
+.customization,
+.toppingOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.toppingOptions {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.customization {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
