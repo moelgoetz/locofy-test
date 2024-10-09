@@ -1,0 +1,133 @@
+.selection,
+.toppings {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.toppings {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.checkboxOptions,
+.checkboxRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkboxOptions {
+  gap: var(--gap-xl);
+}
+.checkboxRow {
+  padding: var(--padding-11xs) 0 0;
+}
+.candy,
+.fruit,
+.nuts {
+  width: 35px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+}
+.candy,
+.fruit {
+  width: 36px;
+}
+.candy {
+  text-decoration: none;
+  width: 46px;
+  color: inherit;
+}
+.toppingNames {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.checkboxRowParent,
+.toppingNames,
+.toppingsOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkboxRowParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.toppingsOptions {
+  height: 208px;
+  flex-direction: column;
+}
+.clear {
+  text-decoration: none;
+  width: 41px;
+  position: relative;
+  line-height: 28px;
+  color: inherit;
+  display: inline-block;
+}
+.clearButton,
+.clearButtonContainer,
+.toppingsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clearButtonContainer {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.clearButton,
+.toppingsContainer {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.toppingsContainer {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
+.toppingsParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.customization,
+.dropdownContainer,
+.toppingsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdownContainer {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+}
+.customization {
+  width: 379px;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
+@media screen and (max-width: 379px) {
+  .dropdownContainer {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 250px) {
+  .toppingsContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

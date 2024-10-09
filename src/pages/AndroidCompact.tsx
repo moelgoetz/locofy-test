@@ -7,14 +7,14 @@ import styles from "./AndroidCompact.module.css";
 
 const AndroidCompact: FunctionComponent = () => {
   return (
-    <div className={styles.androidCompact1}>
+    <div className={styles.noEffort}>
       <section className={styles.frameParent}>
         <FrameComponent />
         <div className={styles.frameWrapper}>
           <div className={styles.cherryMeltSundayParent}>
-            <h2 className={styles.cherryMeltSunday}>Cherry Melt Sunday</h2>
+            <a className={styles.cherryMeltSunday}>Cherry Melt Sunday</a>
             <div className={styles.imageBaseWrapper}>
-              <TypeImageIconSubtleOff />
+              <TypeImageIconSubtleOff typeImageIconSubtleOffImage="/image-base.svg" />
             </div>
           </div>
         </div>

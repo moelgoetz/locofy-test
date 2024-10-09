@@ -11,7 +11,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   className = "",
 }) => {
   return (
-    <section className={[styles.androidCompact1Inner, className].join(" ")}>
+    <section className={[styles.noEffortInner, className].join(" ")}>
       <div className={styles.toppingsContentParent}>
         <div className={styles.toppingsContent}>
           <div className={styles.toppings}>
@@ -26,7 +26,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
               <StateUnchecked />
               <div className={styles.fruit}>Fruit</div>
             </div>
-            <div className={styles.checkboxRow2}>
+            <div className={styles.checkboxRow}>
               <StateUnchecked />
               <a className={styles.candy}>Candy</a>
             </div>

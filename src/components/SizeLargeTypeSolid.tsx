@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useMemo, type CSSProperties } from "react";
 import styles from "./SizeLargeTypeSolid.module.css";
 
 export type SizeLargeTypeSolidType = {
@@ -6,6 +6,15 @@ export type SizeLargeTypeSolidType = {
   iconLeft?: boolean;
   iconRight?: boolean;
   text?: string;
+
+  /** Style props */
+  buttonPadding?: CSSProperties["padding"];
+  buttonFlex?: CSSProperties["flex"];
+  buttonHeight?: CSSProperties["height"];
+  buttonWidth?: CSSProperties["width"];
+  labelHeight?: CSSProperties["height"];
+  labelWidth?: CSSProperties["width"];
+  labelDisplay?: CSSProperties["display"];
 };
 
 const SizeLargeTypeSolid: FunctionComponent<SizeLargeTypeSolidType> = ({
@@ -13,9 +22,36 @@ const SizeLargeTypeSolid: FunctionComponent<SizeLargeTypeSolidType> = ({
   iconLeft = false,
   iconRight = false,
   text = "Submit",
+  buttonPadding,
+  buttonFlex,
+  buttonHeight,
+  buttonWidth,
+  labelHeight,
+  labelWidth,
+  labelDisplay,
 }) => {
+  const buttonStyle: CSSProperties = useMemo(() => {
+    return {
+      padding: buttonPadding,
+      flex: buttonFlex,
+      height: buttonHeight,
+      width: buttonWidth,
+    };
+  }, [buttonPadding, buttonFlex, buttonHeight, buttonWidth]);
+
+  const labelStyle: CSSProperties = useMemo(() => {
+    return {
+      height: labelHeight,
+      width: labelWidth,
+      display: labelDisplay,
+    };
+  }, [labelHeight, labelWidth, labelDisplay]);
+
   return (
-    <button className={[styles.button, className].join(" ")}>
+    <button
+      className={[styles.button, className].join(" ")}
+      style={buttonStyle}
+    >
       {iconLeft && (
         <img
           className={styles.actionsUistarSolid}
@@ -23,7 +59,9 @@ const SizeLargeTypeSolid: FunctionComponent<SizeLargeTypeSolidType> = ({
           src="/actions--uistarsolid.svg"
         />
       )}
-      <div className={styles.label}>{text}</div>
+      <div className={styles.label} style={labelStyle}>
+        {text}
+      </div>
       {iconRight && (
         <img
           className={styles.actionsUistarSolid}

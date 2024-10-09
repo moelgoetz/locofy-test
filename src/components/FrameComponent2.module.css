@@ -1,6 +1,5 @@
 .toppings1 {
   margin: 0;
-  flex: 1;
   position: relative;
   font-size: inherit;
   line-height: 28px;
@@ -13,10 +12,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0 var(--padding-96xl);
+  padding: 0 var(--padding-xl);
 }
 .nuts {
-  flex: 1;
   position: relative;
   line-height: 28px;
   display: inline-block;
@@ -31,7 +29,6 @@
 }
 .candy,
 .fruit {
-  flex: 1;
   position: relative;
   line-height: 28px;
 }
@@ -40,14 +37,6 @@
   color: inherit;
   display: inline-block;
   min-width: 46px;
-}
-.checkboxRow2 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-xs);
 }
 .checkboxRowParent,
 .toppingsContent {
@@ -66,11 +55,9 @@
 }
 .clear {
   text-decoration: none;
-  width: 41px;
   position: relative;
   line-height: 28px;
   color: inherit;
-  display: inline-block;
 }
 .clearButtonContent {
   display: flex;
@@ -86,15 +73,18 @@
   align-items: flex-start;
 }
 .clearButtonContentParent {
+  flex: 1;
   justify-content: flex-start;
   gap: var(--gap-lgi);
 }
 .frameWrapper {
+  width: 157px;
   justify-content: flex-end;
   padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
   font-size: var(--font-size-xl);
 }
-.androidCompact1Inner,
+.noEffortInner,
 .toppingsContentParent {
   display: flex;
   justify-content: flex-start;
@@ -106,7 +96,7 @@
   align-items: flex-end;
   gap: var(--gap-12xl);
 }
-.androidCompact1Inner {
+.noEffortInner {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;

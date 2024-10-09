@@ -1,12 +1,8 @@
 .cherryMeltSunday {
-  margin: 0;
-  width: 230px;
+  text-decoration: none;
   position: relative;
-  font-size: inherit;
   line-height: 28px;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
+  color: inherit;
 }
 .imageBaseWrapper {
   align-self: stretch;
@@ -24,10 +20,10 @@
   gap: var(--gap-base);
   max-width: 100%;
 }
-.androidCompact1,
 .cherryMeltSundayParent,
 .frameParent,
-.frameWrapper {
+.frameWrapper,
+.noEffort {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -39,8 +35,8 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.androidCompact1,
-.frameParent {
+.frameParent,
+.noEffort {
   flex-direction: column;
 }
 .frameParent {
@@ -52,7 +48,7 @@
   color: var(--color-black);
   font-family: var(--patrick-hand-body-lg);
 }
-.androidCompact1 {
+.noEffort {
   width: 100%;
   position: relative;
   background-color: var(--white);

@@ -11,7 +11,16 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
 }) => {
   return (
     <div className={[styles.mobileNavWrapper, className].join(" ")}>
-      <Type icon2 icon1 icon3 showTitle />
+      <Type
+        icon2
+        icon1
+        icon3
+        showTitle
+        placeholderplaceholderPlaceholderplaceholder="44px"
+        placeholderplaceholderPlaceholderplaceholder1="24px"
+        placeholderplaceholderRectangle="calc(50% - 20px)"
+        placeholderplaceholderRectangle1="calc(50% - 10px)"
+      />
     </div>
   );
 };

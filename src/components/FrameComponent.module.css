@@ -1,4 +1,5 @@
 .mobileNavWrapper {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -6,4 +7,7 @@
   padding: 0 0 var(--padding-base);
   box-sizing: border-box;
   max-width: 100%;
+  top: 0;
+  z-index: 99;
+  position: sticky;
 }
