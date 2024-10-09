@@ -1,0 +1,27 @@
+.text {
+  height: 24px;
+  width: 43px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.menuDropdown {
+  width: 364px;
+  height: 48px;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-255xl);
+  text-align: left;
+  font-size: var(--patrick-hand-body-size);
+  color: var(--black);
+  font-family: var(--patrick-hand-body-lg);
+}

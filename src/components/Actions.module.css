@@ -1,0 +1,30 @@
+.clear {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  color: inherit;
+}
+.actions,
+.buttonclear {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-mini);
+}
+.actions {
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-5xl) var(--padding-5xs)
+    var(--padding-189xl);
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--patrick-hand-body-lg-size);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
+@media screen and (max-width: 391px) {
+  .actions {
+    flex-wrap: wrap;
+  }
+}

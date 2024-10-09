@@ -5,6 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import V4InteractionsVariables from "./pages/V4InteractionsVariables";
+import AndroidCompact from "./pages/AndroidCompact";
+import V2WithAutoLayout from "./pages/V2WithAutoLayout";
 import V3WithMoreAutoLayoutAnd from "./pages/V3WithMoreAutoLayoutAnd";
 
 function App() {
@@ -27,6 +30,18 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/no-effort":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/v2-with-auto-layout":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/v3-with-more-auto-layout-and-layer-building":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +60,13 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<V3WithMoreAutoLayoutAnd />} />
+      <Route path="/" element={<V4InteractionsVariables />} />
+      <Route path="/no-effort" element={<AndroidCompact />} />
+      <Route path="/v2-with-auto-layout" element={<V2WithAutoLayout />} />
+      <Route
+        path="/v3-with-more-auto-layout-and-layer-building"
+        element={<V3WithMoreAutoLayoutAnd />}
+      />
     </Routes>
   );
 }

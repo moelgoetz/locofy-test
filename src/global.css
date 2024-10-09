@@ -12,6 +12,9 @@ body {
   --font-size-xl: 20px;
   --font-size-13xl: 32px;
   --patrick-hand-body-size: 18px;
+  --text-script-h3-size: 24px;
+  --text-script-h2-size: 28px;
+  --text-script-h1-size: 34px;
 
   /* Colors */
   --white: #fff;
@@ -33,6 +36,7 @@ body {
   --gap-9xs: 4px;
   --gap-xl: 20px;
   --gap-13xl: 32px;
+  --gap-255xl: 274px;
 
   /* Paddings */
   --padding-21xl: 40px;
@@ -56,6 +60,7 @@ body {
   --padding-5xl: 24px;
   --padding-2xs: 11px;
   --padding-12xl: 31px;
+  --padding-189xl: 208px;
 
   /* Border radiuses */
   --br-5xs: 8px;

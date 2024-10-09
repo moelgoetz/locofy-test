@@ -1,0 +1,34 @@
+.actionsUistarSolid,
+.label {
+  position: relative;
+  flex-shrink: 0;
+}
+.actionsUistarSolid {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.label {
+  height: 28px;
+  width: 57px;
+  line-height: 28px;
+  display: inline-block;
+}
+.button {
+  height: 52px;
+  width: 88px;
+  border-radius: var(--br-5xs);
+  background-color: var(--black);
+  border: 4px solid var(--black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--patrick-hand-body-lg-size);
+  color: var(--white);
+  font-family: var(--patrick-hand-body-lg);
+}

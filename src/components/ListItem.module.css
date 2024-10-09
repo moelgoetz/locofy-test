@@ -1,0 +1,28 @@
+.frameInput {
+  margin: 0;
+  height: 26px;
+  width: 24px;
+}
+.nuts {
+  text-decoration: none;
+  height: 28px;
+  width: 50px;
+  position: relative;
+  line-height: 28px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.listItem {
+  width: 81px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--patrick-hand-body-lg-size);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
