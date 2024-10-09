@@ -1,0 +1,65 @@
+.cherryMeltSunday {
+  margin: 0;
+  width: 230px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.imageBaseWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cherryMeltSundayParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.androidCompact1,
+.cherryMeltSundayParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 43px 0 var(--padding-18xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.androidCompact1,
+.frameParent {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 26px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
+.androidCompact1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: 0 0 58px;
+  box-sizing: border-box;
+  gap: 41px;
+  line-height: normal;
+  letter-spacing: normal;
+}

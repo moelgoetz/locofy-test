@@ -1,0 +1,35 @@
+.selection {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+}
+.frameParent,
+.frameWrapper,
+.selectionWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selectionWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs);
+}
+.frameParent,
+.frameWrapper {
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl) 0 var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}

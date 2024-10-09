@@ -1,0 +1,16 @@
+.placeholderplaceholder2Child {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+  border-radius: var(--br-10xs);
+  background-color: var(--gray-2);
+  width: 20px;
+  height: 20px;
+}
+.placeholderplaceholder2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}

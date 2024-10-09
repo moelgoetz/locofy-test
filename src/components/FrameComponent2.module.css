@@ -1,0 +1,129 @@
+.toppings1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.toppings {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-96xl);
+}
+.nuts {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 35px;
+}
+.checkboxRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.candy,
+.fruit {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+}
+.candy {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 46px;
+}
+.checkboxRow2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.checkboxRowParent,
+.toppingsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkboxRowParent {
+  gap: var(--gap-base);
+  font-size: var(--font-size-xl);
+}
+.toppingsContent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.clear {
+  text-decoration: none;
+  width: 41px;
+  position: relative;
+  line-height: 28px;
+  color: inherit;
+  display: inline-block;
+}
+.clearButtonContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.clearButtonContentParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.clearButtonContentParent {
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.frameWrapper {
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-xl);
+}
+.androidCompact1Inner,
+.toppingsContentParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.toppingsContentParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+}
+.androidCompact1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--patrick-hand-body-lg);
+}
+@media screen and (max-width: 335px) {
+  .toppings {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .toppingsContentParent {
+    gap: var(--gap-mini);
+  }
+}

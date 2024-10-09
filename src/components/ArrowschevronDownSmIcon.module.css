@@ -1,0 +1,10 @@
+.arrowschevronDownSmIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  right: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

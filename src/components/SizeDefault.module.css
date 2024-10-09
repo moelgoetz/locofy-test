@@ -1,0 +1,31 @@
+.dropdown,
+.text {
+  flex-shrink: 0;
+  position: relative;
+}
+.text {
+  height: 24px;
+  width: 43px;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  display: inline-block;
+}
+.dropdown {
+  width: 335px;
+  height: 48px;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--patrick-hand-body-size);
+  color: var(--black);
+  font-family: var(--patrick-hand-body-lg);
+}

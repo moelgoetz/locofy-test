@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --patrick-hand-body-lg: "Patrick Hand";
+
+  /* font sizes */
+  --patrick-hand-body-lg-size: 22px;
+  --font-size-xl: 20px;
+  --font-size-13xl: 32px;
+  --patrick-hand-body-size: 18px;
+
+  /* Colors */
+  --white: #fff;
+  --schemes-outline: #79747e;
+  --black: #1b1b1b;
+  --color-black: #000;
+  --gray-2: #d8d8d8;
+
+  /* Gaps */
+  --gap-12xl: 31px;
+  --gap-mini: 15px;
+  --gap-lgi: 19px;
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-7xs: 6px;
+  --gap-9xs: 4px;
+  --gap-49xl: 68px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-18xl: 37px;
+  --padding-8xs: 5px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-smi: 13px;
+  --padding-96xl: 115px;
+  --padding-xl: 20px;
+  --padding-11xs: 2px;
+  --padding-10xs: 3px;
+  --padding-3xs: 10px;
+  --padding-22xl: 41px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-11xs: 2px;
+  --br-10xs: 3px;
+}

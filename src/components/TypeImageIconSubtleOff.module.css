@@ -1,0 +1,12 @@
+.imageBaseIcon {
+  border: 0;
+  background-color: transparent;
+  height: 285px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xs);
+  max-width: 100%;
+  overflow: hidden;
+}
